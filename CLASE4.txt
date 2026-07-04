@@ -1,0 +1,38 @@
+*Asigna un nombre a la clave
+curso-programacion-ia
+
+*Crear proyecto
+proyecto-programacion-ia
+
+Declaración de la API KEY:
+Comando desde Command Prompt:
+set GEMINI_API_KEY=YOUR_API_KEY
+
+Consulta de la API KEY:
+echo %GEMINI_API_KEY%
+
+
+1.) Se construye el programa consulta_api01.py
+
+
+Con el contenido de la documetanción:
+https://ai.google.dev/gemini-api/docs?hl=es-419
+
+from google import genai
+
+client = genai.Client()
+
+interaction = client.interactions.create(
+    model="gemini-3.5-flash",
+    input="Asume el rol de experto en Inteligencia Artificial, explica en pocas palabras como trabaja la IA"
+)
+
+print(interaction.output_text)
+
+
+2.) Ejecución del código:
+
+Desde el entorno virtual, donde se efectuó la instalación de la
+dependencia, se ejecuta el programa:
+
+(.venv)...>py consulta_api01.py

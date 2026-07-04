@@ -1,0 +1,63 @@
+Para establecer una variable de entorno de forma equivalente en Windows, tienes tres opciones principales dependiendo de si necesitas que sea permanente o solo para la sesión actual de la terminal.
+
+### 1. PowerShell (Sesión actual)
+
+Si estás trabajando en una terminal de PowerShell y quieres establecer la variable solo para esa ventana:
+
+```powershell
+$env:GEMINI_API_KEY="YOUR_API_KEY"
+
+```
+
+### 2. Símbolo del sistema / CMD (Sesión actual)
+
+Si prefieres usar la consola clásica (CMD):
+
+```cmd
+set GEMINI_API_KEY=YOUR_API_KEY
+
+```
+
+---
+
+### 3. Configuración permanente (Recomendado para desarrollo)
+
+Para que la llave esté disponible siempre en todas tus sesiones sin tener que configurarla cada vez, debes hacerlo a través de las variables de entorno del sistema:
+
+1. Presiona la tecla **Windows** y escribe: **"Editar las variables de entorno del sistema"**.
+2. Haz clic en el botón **Variables de entorno** en la parte inferior.
+3. En la sección **Variables de usuario** (o del sistema), haz clic en **Nueva...**.
+4. En "Nombre de la variable", escribe: `GEMINI_API_KEY`
+5. En "Valor de la variable", pega tu clave API.
+6. Haz clic en **Aceptar** en todas las ventanas.
+
+> **Nota importante:** Después de hacer esto de forma permanente, debes **cerrar y volver a abrir** cualquier terminal (VS Code, PowerShell, CMD) para que los cambios surtan efecto y la aplicación de Interaxia pueda detectar la variable.
+
+¿Te gustaría saber cómo verificar desde la terminal que la variable ha sido configurada correctamente en tu equipo?
+
+
+Para consultar el valor de la variable de entorno `GEMINI_API_KEY` directamente en la terminal de Windows, utiliza el comando `echo` seguido del nombre de la variable encerrado en signos de porcentaje (`%`).
+
+### En el Símbolo del sistema (CMD)
+
+Escribe el siguiente comando y presiona **Enter**:
+
+```cmd
+echo %GEMINI_API_KEY%
+
+```
+
+---
+
+### En PowerShell
+
+Si prefieres usar PowerShell, el comando es ligeramente distinto:
+
+```powershell
+echo $env:GEMINI_API_KEY
+
+```
+
+> **Nota:** Si al ejecutar estos comandos la terminal te devuelve `%GEMINI_API_KEY%` o no muestra nada, significa que la variable no está definida en esa sesión específica. Recuerda que, tras configurar la variable de forma permanente (como vimos en el paso anterior), **debes cerrar y abrir nuevamente la terminal** para que esta pueda "leer" el valor actualizado.
+
+¿Necesitas ayuda para verificar la configuración en algún entorno de desarrollo específico donde estés integrando Interaxia?

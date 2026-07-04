@@ -1,0 +1,70 @@
+Google, OpenAI, Anthropic, DeepSeek
+
+API: Interface de Programación de Aplicaciones.
+
+Mediante programación, empleando alguno de estos lenguajes:
+Python, Javascript, C#, Java, RUST
+
+1.) Abrir una terminal de command prompt desde el editor Visual Studio.
+
+
+2.) Preparar el entorno del lenguaje con el cual se desarrollará
+la integración con la API. En este caso se desarrollará en Python, 
+por lo tanto debe ser instalado Python previamente.
+
+
+3.) Preparar un entorno virtual.
+Desde la línea de comandos, se debe ejecutar la instrucción:
+
+Comando a realizar:
+python -m venv .venv
+
+Crear un entorno virtual, cuyo directorio se llamará \.venv
+
+
+4.) Se debe activar el entorno virtual
+
+>.venv\scripts\activate
+
+(.venv)....>
+
+¿Qué es el entorno virtual?
+
+[Se instalan dependencias     ]
+[Entorno Virtual              ]
+[Interprete de lenguaje Python]
+[Sistema Operativo            ]
+
+¿Para qué sirve?
+Sirve para separar ambientes, donde hay diferentes dependencias.
+
+5.) Instalar la dependencia de Gemini IA, que se hace mediante el comando:
+
+pip install -U google-genai     *************** IMPORTANTE *************
+
+ver enlace:
+https://ai.google.dev/gemini-api/docs/get-started?hl=es-419
+
+
+¿Cómo verificar las dependencias?
+pip list
+
+(pip: Python Install Package)
+
+
+https://ai.google.dev/
+
+Comando para verificar si Pyton se encuentra instalado
+Desde Command Prompt:
+python --version
+
+Referencia de las API para IA de Google
+https://ai.google.dev/api?hl=es-419
+
+6.) Obtención de una API KEY
+https://aistudio.google.com/api-keys?hl=es-419&_gl=1*tluubi*_ga*MTE3Njc4MDguMTc0MDUyNDU1OQ..*_ga_P1DBVKWT6V*czE3ODI4NjcyMzgkbzMxJGcxJHQxNzgyODY5NzA2JGo2MCRsMCRoMjU1MjUwNjYz&project=gen-lang-client-0945091782
+
+
+
+
+set GEMINI_API_KEY=valor

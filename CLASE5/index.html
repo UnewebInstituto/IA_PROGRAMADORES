@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Interaxia</title>
+</head>
+<body>
+    <h1>Bienvenido a la consulta de IA</h1>
+    <textarea id="pregunta" placeholder="Escribe tu pregunta aquí" cols="40" rows="5"></textarea>
+    <button onclick="consultarIA()">Enviar</button>
+    <div id="resultado"></div>
+
+    <script>
+        async function consultarIA() {
+            const pregunta = document.getElementById('pregunta').value;
+            const res = await fetch('http://localhost:3000/api/pregunta', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ pregunta })
+            });
+            const data = await res.json();
+            document.getElementById('resultado').innerText = data.respuesta;
+        }
+    </script>
+</body>
+</html>

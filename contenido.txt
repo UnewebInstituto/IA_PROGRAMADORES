@@ -1,0 +1,25 @@
+Curso de Inteligencia Artificial para Programadores - Creando Aplicaciones en GitHub con IA
+
+Enseñar a programadores cómo integrar Inteligencia Artificial en sus aplicaciones utilizando herramientas y APIs de IA, desplegándolas en GitHub y optimizando flujos de trabajo con IA generativa
+
+Fundamentos de IA en el Desarrollo de Software
+
+Tipos de IA aplicables al desarrollo: NLP, visión por computadora y modelos generativos.
+
+Introducción a APIs de IA
+
+Integración de IA en Aplicaciones Web
+
+Uso de APIs de IA para generación de contenido y asistentes virtuales
+
+Ejercicios Prácticos
+Configurar GitHub Codeium y generar código más rápido en VS Code.
+
+Crear un workflow con GitHub Actions para probar y desplegar una app con IA.
+
+Despliegue y Optimización de Aplicaciones con IA, Optimización de rendimiento en modelos de IA. 
+
+Implementación de una aplicación en la nube
+
+Proyecto final: Desplegar una aplicación web con IA. Evaluar la precisión del modelo implementado y optimizarlo.
+

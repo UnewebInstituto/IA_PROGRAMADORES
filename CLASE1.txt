@@ -1,0 +1,86 @@
+https://dolarhoy.com/empresas/jensen-huang-ceo-de-nvidia-afirmo-que-el-65-del-pbi-mundial-sera-aumentado-por-la-ia-202510171240
+
+IA: Inteligencia artificial
+
+- Gemini 
+- ChaGPT
+- Deepseek
+- Otras
+
+PROMPT: Incitador de comandos.
+R: Rol
+T: Tarea
+F: Formato
+C: Contexto
+
+Si, se está trabajando con alguna IA, que por ubicación
+geográfica, no permita el acceso, es requerido la instalación
+de una VPN.
+
+1) Sitio de plantillas HTML,CSS,JS y BOOTSTRAP.
+www.bootstrapmade.com
+
+https://bootstrapmade.com/bootstrap-education-templates/
+
+
+PROMPT: Incitador de comandos.
+
+R: Rol
+Asume el rol de experto en desarrollo web y en SEO (Search Engine Optimization),
+
+T: Tarea
+Toma el archivo anexo, que correspon a un index.html, de una plantilla,
+se necesita que sea adaptado para incluir la optiminización en motores de búsqueda, así mismo sea incluido un contenido alusivo a formación y capacitación en tecnologias de la información, lenguajes de programación, ciberseguridad, inteligencia artificial, diseño de desarrollo en general y bases de datos,
+
+F: Formato
+Se requiere que el resultado sea un nuevo archivo index.html, donde todos los aspectos de diseño, imagen, color, fuente de letras, efectos y distribución en el diseño se conserven,
+
+C: Contexto
+Somos una empresa especializada en educación a distancia, para ofrecer cursos al publico intersado en nuestros contenidos.
+
+Prompt resultado:
+Asume el rol de experto en desarrollo web y en SEO (Search Engine Optimization), toma el archivo anexo, conserva todas las referencias a la librería bootsptrap o cualquier otra de la versión original, para no afectar la experiencia de visualización, en la imagen del archivo anexo, no se onserva el contenido del inicio, corregir la falla en la actualización, para no afectar la experiencia de usuario, este archivo corresponde a un index.html, de una plantilla. Se necesita que sea adaptado para incluir la optiminización en motores de búsqueda, así mismo sea incluido un contenido alusivo a formación y capacitación en tecnologias de la información, lenguajes de programación, ciberseguridad, inteligencia artificial, diseño de desarrollo en general y bases de datos. Somos una empresa especializada en educación a distancia, para ofrecer cursos al publico intersado en nuestros contenidos.
+
+Base de Conocimiento: Todas las fuentes documentales, que permiten que IA, maneje los temas concernientes a una organización, empresa, institución, otros.
+
+Caso Chat bot: Tawkto
+https://dashboard.tawk.to/login
+
+Sitios web (Web Scraping)
+Documentos PDF 
+Archivos TXT 
+Preguntas y respuestas predefinidas en dicho CHAT BOT
+
+
+Hosting gratuito
+https://www.alwaysdata.com/en/
+
+
+Cliente FileZilla
+https://filezilla-project.org/
+
+
+PRUEBA:
+https://carlostorres.alwaysdata.net/
+https://augustogarcia712.alwaysdata.net/
+https://samuelhernandez.alwaysdata.net/
+https://hduque-test.alwaysdata.net
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

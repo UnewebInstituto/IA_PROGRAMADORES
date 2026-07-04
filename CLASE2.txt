@@ -1,0 +1,58 @@
+SITIOS WEB DE PRUEBA:
+https://carlostorres.alwaysdata.net/
+https://augustogarcia712.alwaysdata.net/
+https://samuelhernandez.alwaysdata.net/
+https://hduque-test.alwaysdata.net
+
+
+TAWK TO API
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a43158ee91f931d4be8e3c2/1jsb0odo6';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+SERVIDOR FTP
+
+SERVIDOR ftp
+ftp-hduque-test.alwaysdata.net
+
+USUARIO ftp
+hduque-test
+
+
+CONFIGURACIÓN EDITOR FILEZILLA
+
+html "C:\Users\duque\AppData\Local\Programs\Microsoft VS Code\Code.exe" %f
+js "C:\Users\duque\AppData\Local\Programs\Microsoft VS Code\Code.exe" %f
+json "C:\Users\duque\AppData\Local\Programs\Microsoft VS Code\Code.exe" %f
+php "C:\Users\duque\AppData\Local\Programs\Microsoft VS Code\Code.exe" %f
+txt "C:\Users\duque\AppData\Local\Programs\Microsoft VS Code\Code.exe" %f
+
+
+CONFIGURACIÓN ASISTENTE DE IA:
+
+Se requiere que el agente de Inteligencia Artificial, tenga conocimientos
+acerca de la capacitación en materia de tecnologias de la información
+para quienes acceden a curso de programación web, inteligencia artificial,
+bases de datos y otros temas relacionados.
+
+
+¿A qué se dedica el negocio?
+Mi negocio se dedica a la capacitación en materia de tecnologias de la información
+para quienes acceden a cursos de programación web, inteligencia artificial,
+bases de datos y otros temas relacionados.
+
+Nueva pregunta y respuesta
+¿Cuál es el horario de atención al público?
+
+Nuestro horario de atención al público es de 8:00AM a 5:00pm

@@ -1,0 +1,81 @@
+**Windsurf** (desarrollado por **Codeium**, que sigue existiendo como la empresa matriz y creadora del proyecto) es el primer **IDE (Entorno de Desarrollo Integrado) "agéntico"** del mundo.
+
+La finalidad principal de Windsurf es **revolucionar la programación asistida por inteligencia artificial, pasando del concepto de "Copiloto" (asistente pasivo) al de "Agente" (colaborador activo y autónomo).**
+
+A continuación, se detallan los objetivos y finalidades clave de este agente de IA:
+
+### 1. Superar las limitaciones de los "Copilots" tradicionales
+Los asistentes de código tradicionales (como GitHub Copilot o el Codeium original en su versión de extensión) funcionan de manera reactiva: el programador escribe y la IA sugiere la siguiente línea, o el programador pregunta en un chat y luego debe copiar y pegar el código.
+La finalidad de Windsurf es eliminar esta fricción. Funciona como un miembro más del equipo de desarrollo, capaz de **tomar la iniciativa, proponer soluciones completas y ejecutarlas**.
+
+### 2. Permitir el desarrollo "Agéntico" (Autonomía con control humano)
+El motor de Windsurf se llama **Cascade**. Su propósito es permitir dos modos de trabajo que interactúan fluidamente:
+* **Modo Copiloto:** Para tareas rápidas de autocompletado línea por línea.
+* **Modo Agente:** El desarrollador le da una instrucción compleja en lenguaje natural (por ejemplo: *"Implementa un sistema de autenticación JWT en este proyecto y asegúrate de que se conecte a la base de datos existente"*). El agente de IA analiza todo el proyecto, crea un plan de pasos, escribe el código en múltiples archivos, abre la terminal, ejecuta comandos y corrige los errores que puedan surgir en el proceso.
+
+### 3. Comprensión profunda y global del contexto (Codebase Awareness)
+La finalidad de Windsurf es que la IA no trabaje "a ciegas". Está diseñada para mantener una sincronización en tiempo real con todo el directorio de trabajo del usuario. Entiende la estructura del proyecto, las dependencias, cómo se relacionan los diferentes archivos de código y el historial de Git. Esto le permite tomar decisiones de diseño de software coherentes con el estilo y la arquitectura ya existentes.
+
+### 4. Reducir la carga cognitiva del programador
+Al automatizar las tareas repetitivas, la configuración de entornos, la búsqueda de bugs y la refactorización de código complejo, la finalidad de Windsurf es **permitir que el programador humano se concentre en el diseño del sistema, la lógica de negocio y la resolución de problemas de alto nivel**, delegando la "carpintería" del código a la IA.
+
+### 5. Colaboración en tiempo real (Human-in-the-Loop)
+A diferencia de otros agentes autónomos que se ejecutan de forma aislada en la nube (como Devin), la finalidad de Windsurf es la **coexistencia**. El desarrollador humano y el agente de IA pueden editar el mismo archivo al mismo tiempo. Si la IA comete un error, el humano puede corregirlo al instante en el editor, y la IA adaptará su plan sobre la marcha basándose en esa corrección.
+
+### Resumen
+La finalidad de **Windsurf** es convertir el editor de código en un entorno vivo donde **la IA no es solo una herramienta de autocompletado, sino un ingeniero de software virtual autónomo** que trabaja codo a codo con el desarrollador humano para crear software de manera mucho más rápida, eficiente y con menos errores.
+
+
+********************
+**** GEMINI CLI ****
+********************
+
+**Gemini CLI** (Command Line Interface o Interfaz de Línea de Comandos) es una herramienta que te permite interactuar con los modelos de inteligencia artificial **Gemini de Google** directamente desde la terminal de tu computadora (como la Terminal en macOS/Linux o el Símbolo del Sistema/PowerShell en Windows), sin necesidad de usar un navegador web.
+
+Aunque Google ofrece acceso a Gemini a través de su web y de APIs para desarrolladores, **no existe un único "Gemini CLI" oficial de Google para usuarios comunes**. En su lugar, el término se refiere a:
+
+1. **Herramientas creadas por la comunidad (Código Abierto):** Desarrolladores independientes han creado sus propios programas de terminal que se conectan a la API de Gemini.
+2. **La CLI de Google Cloud (gcloud):** Para desarrolladores de software que usan Gemini a través de Vertex AI en entornos empresariales.
+
+---
+
+### ¿Para qué sirve un Gemini CLI?
+
+Los desarrolladores y usuarios avanzados prefieren usar la terminal por varias razones:
+
+1. **Automatización y Scripts:** Puedes integrar las respuestas de Gemini en scripts de Bash, Python o PowerShell. Por ejemplo, puedes hacer un script que lea un archivo de código, se lo envíe a Gemini y guarde la explicación en un archivo de texto.
+2. **Rapidez y Productividad:** No necesitas abrir el navegador, ir a la web de Gemini y copiar/pegar. Todo se hace con comandos rápidos.
+3. **Procesamiento de archivos locales:** Puedes pasarle el contenido de un archivo directamente como contexto.
+* *Ejemplo:* `cat error.log | gemini "Explica este error"`
+
+---
+
+### ¿Cómo funciona típicamente?
+
+Para usar casi cualquier Gemini CLI (especialmente los de código abierto), necesitas dos cosas:
+
+1. **Una clave de API (API Key):** Se obtiene de forma gratuita (con límites de uso) en [Google AI Studio](https://aistudio.google.com/).
+2. **Instalar la herramienta:** La mayoría se instalan a través de gestores de paquetes como Node.js (`npm`), Python (`pip`) o Homebrew.
+
+#### Ejemplo de uso común:
+
+Si instalas una herramienta popular de la comunidad (como `gemini-cli` en Node.js), su uso se ve así en la terminal:
+
+```bash
+# Hacer una pregunta directa
+gemini "Dame 3 ideas para cenar con pollo"
+
+# Analizar un archivo de código local
+gemini "Optimiza este código:" < index.js
+```
+
+### ¿Cómo conseguir uno?
+
+Si quieres probarlo, algunos de los proyectos de código abierto más populares en GitHub son:
+* **`gemini-cli` (Node.js/NPM):** Una de las herramientas más sencillas de instalar si ya tienes Node.js en tu máquina.
+* **Integraciones en editores:** Muchos desarrolladores usan herramientas CLI que integran Gemini directamente dentro de editores de texto basados en terminal como Vim o Neovim.
+
+
+
+INSTALACIÓN
+https://geminicli.com/docs/get-started/installation/
